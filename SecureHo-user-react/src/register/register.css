@@ -1,0 +1,87 @@
+/*  */
+
+#Signup {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#inpcontainer {
+    font-family: 'Poppins', sans-serif;
+    display: contents;
+    gap: 2rem;
+    width: 35%;
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2E2B2B;
+    width: 500px;
+    top: 0px;
+    left: 25px;
+    position: relative;
+    background: #F4FAFC;
+}
+
+.imgsignup {
+    width: 700px;
+    height: 700px;
+    margin-top: 15px;
+}
+
+.datos {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 626px;
+    height: 549px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: #F4FAFC;
+    border-radius: 28px;
+}
+
+
+.btnorigin {
+    padding: 0.5rem;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border-radius: 11px;
+    color: aliceblue;
+    border: none;
+    font-size: 1rem;
+    background-color: #48A5BE;
+    font-weight: 24px;
+    margin-top: 20px;
+}
+
+.btnorigin:hover {
+    color: #48A5BE;
+    padding: 0.5rem;
+    border: 2px solid #48A5BE;
+    background-color: white;
+}
+
+#icocontainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -470px;
+    gap: 2.15rem;
+    top: 20px;
+}
+
+#Signup>.datos>#icocontainer {
+    margin-top: 220px;
+}
+
+.iconos {
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,152 @@
+/* #main1 */
+#main1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #2E2B2B;
+    background-image: url("/img/FONDO\ MINIMALISTA.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .bas */
+.bas {
+    height: 70px;
+    width: 1449px;
+    margin-left: 70px;
+    margin-top: 0;
+    border-radius: 0 0 25px 0;
+    background-color: white;
+    position: absolute;
+}
+
+/* basinicio */
+.basinicio {
+    margin-top: 12px;
+    margin-left: 1375px;
+    position: absolute;
+}
+
+/* #visitor */
+#visitor {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* .navbar */
+.navbar {
+    width: 70px;
+    height: 745px;
+    background-color: white;
+    border-radius: 0 0 25px 0;
+    margin: 0;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 80rem;
+}
+/* .icon0 */
+.icon0 {
+    margin: 12px;
+    width: 40px;
+    height: 40px;
+}
+
+/* #imgcenternav */
+#imgcenternav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px;
+    margin-top: 200px;
+    gap: 2rem;
+}
+
+/* icon1 */
+.icon1 {
+    width: 35px;
+    height: 35px;
+}
+
+/* .logo2 */
+.logo2 {
+    margin-left: -8px;
+    margin-top: 210px;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+/* #welcontainer */
+#welcontainer {
+    width: 1380px;
+    height: 580px;
+    background-color: #48A5BE;
+    opacity: 83%;
+    border-radius: 16px;
+    padding: 45px;
+    padding-top: 85px;
+    margin-top: 140px;
+    margin-left: 110px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* .title */
+.title {
+    font-family: 'Poppins' 'SemiBold 600', sans-serif;
+    margin: 90px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* #welcome */
+#welcome {
+    background-color: transparent;
+    width: 1300px;
+    height: 190px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 130px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* #pwelcome */
+#pwelcome {
+    font-family: 'Poppins' 'SemiBold 600', sans-serif;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* #btnwel */
+#btnwel {
+    padding: 0.5rem;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    background-color: #00768E;
+    font-weight: 17px;
+}
+
+#btnwel:hover {
+    color: #00768E;
+    padding: 0.5rem;
+    border: 2px solid #00768E;
+    background-color: white;
+}

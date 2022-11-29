@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+body {
+    margin: 0;
+}
+
+body > section {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.opacity {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    position:absolute ;
+    background-color: #2E2B2B;
+    opacity: 60%;
+}
+.img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#container { 
+    background-image: url("/img/Fondo\ Main\ .png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#titulo1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 200px;
+    gap: 2.5rem;
+}
+
+.iniciopar {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.btn {
+    padding: 1rem;
+    width: 313px;
+    height: 66px;
+
+    border-radius: 11px;
+    color: aliceblue;
+    border: 2px solid white;
+    position: relative;
+
+    font-size: 1rem;
+    background-color:  #2E2B2B;
+    font-weight: 24px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+#login {
+    background-image: url(/img/Fondo\ main2.png);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.btncont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    gap: 1.5rem;
+}
+
+#txt {
+    color: white;
+    margin:  80px;
+}
+
+.img2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#titulo12 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    margin-top: 0px;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#titulo13 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+
+    display: flex;
+    margin-top: 0px;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+    margin-top: 700px;
+    margin-right: -90px;
+}
+
+#Signup {
+    display: flex;
+    flex-direction: row;
+}
+
+#inpcontainer {
+    font-family: 'Poppins', sans-serif;
+    display: contents;
+    gap: 2rem;
+    width: 35%;
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2E2B2B;
+    width: 500px;
+}
+
+.imgsignup {
+    width: 700px;
+    height: 700px;
+    margin-top: 15px;
+}
+
+#Signup {
+    display: flex;
+    flex-direction: row;
+}
+.datos {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+    margin-top: 200px;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btnorigin {
+    padding: 0.5rem;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border-radius: 11px;
+    color: aliceblue;
+    border: none;
+
+    font-size: 1rem;
+    background-color:  #48A5BE;
+    font-weight: 24px;
+    margin-top: 20px;
+}
+
+.btnorigin:hover {
+    color: #48A5BE;
+    padding: 0.5rem;
+    border: 2px solid #48A5BE;
+    background-color: white;
+}
+
+#icocontainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -450px;
+    gap: 2.15rem;
+
+
+}
+
+.iconos {
+    height: 20px;
+    width: 20px;
+}
+
+#Signin {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 80rem;
+}
+
+#main1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #2E2B2B;
+    background-image: url("/img/FONDO\ MINIMALISTA.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#continfo {
+    width: 600px;
+    height: 560px;
+    background-color: white;
+
+    border-radius: 16px;
+    padding: 45px;
+    padding-top: 85px;
+    margin-top: 150px;
+    margin-right: 100px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input2 {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2E2B2B;
+    width: 300px;
+}
+
+.icon0 {
+    margin: 12px;
+    width: 40px;
+    height: 40px;
+}
+.icon1 {
+    width: 35px;
+    height: 35px;
+}
+.navbar {
+    width: 70px;
+    height: 745px;
+    background-color: white;
+    border-radius: 0 0 25px 0;
+    margin: 0;
+    display: block;
+
+}
+
+#visitor {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.logo2 {
+    margin-left: -8px;
+    margin-top: 210px;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+#imgcenternav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    margin: 20px;
+    margin-top: 200px;
+
+    gap: 2rem;
+}
+
+.bas {
+    height: 70px;
+    width: 1449px;
+    margin-left: 70px;
+    margin-top: 0;
+    border-radius: 0 0 25px 0;
+    background-color: white;
+    position: absolute;
+}
+
+.basinicio {
+    margin-top: 12px;
+    margin-left: 1375px;
+    position: absolute;
+}
+
+#favcontainer {
+    width: 1380px;
+    height: 580px;
+    background-color: #48A5BE;
+    opacity: 50%;
+
+    border-radius: 16px;
+    padding: 45px;
+    padding-top: 85px;
+    margin-top: 140px;
+    margin-left: 110px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#inpcontainerfav {
+    width: 1300px;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    border-radius: 16px;
+
+    margin-top: 160px;
+    margin-left: 130px;
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#cardfav {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#label {
+    height: 20px;
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border-bottom: 1px solid #2E2B2B;
+}
+
+#txtcont {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    margin-top: -12px;
+    position: relative;
+}
+
+.btnfav {
+    padding: 0.5rem;
+    width: 120px;
+    height: 35px;
+    position: relative;
+    border-radius: 11px;
+    color: black;
+    border: none;
+
+    font-size: 1rem;
+    background-color:  #48A5BE;
+    font-weight: 17px;
+}
+
+.btnfav:hover {
+    opacity: 70%;
+    color: black;
+}
+
+.face {
+    width: 60px;
+    height: 60px;
+    position: relative;
+
+}
+
+.line {
+    width: 1px;
+    height: 190px;
+    background-color: black;
+    margin-top: -32px;
+    margin-right: 25px;
+
+}
+
+#inpcontainerfav1 {
+    width: 1300px;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    border-radius: 16px;
+
+    margin-top: 360px;
+    margin-left: 130px;
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title {
+    font-family: 'Poppins' 'SemiBold 600',  sans-serif;
+    margin: 90px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#qrcontainer {
+    width: 500px;
+    height: 630px;
+    background-color: #48A5BE;
+
+    position: absolute;
+    border-radius: 16px;
+
+    margin-top: 70px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 2rem;
+}
+
+
+.btnqr {
+    padding: 0.5rem;
+    width: 130px;
+    height: 45px;
+    position: relative;
+    border-radius: 9px;
+    color: white;
+    border: none;
+
+    font-size: 1rem;
+    background-color:  #00768E;
+    font-weight: 17px;
+}
+.titleqr {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#pqr {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+#mainqr {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/img/FONDO\ MINIMALISTA.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pwelcome {
+    font-family: 'Poppins' 'SemiBold 600',  sans-serif;
+    color: white;
+    font-size: 22px;
+    text-align:left;
+    font-weight: 600;
+
+}
+
+#welcome {
+    background-color: transparent;
+    width: 1300px;
+    height: 190px;
+    background-color: transparent;
+    position: absolute;
+
+    margin-top: 160px;
+    margin-left: 130px;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;    
+}
+
+#welcontainer {
+    width: 1380px;
+    height: 580px;
+    background-color: #48A5BE;
+    opacity: 83%;
+
+    border-radius: 16px;
+    padding: 45px;
+    padding-top: 85px;
+    margin-top: 140px;
+    margin-left: 110px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#btnwel {
+    padding: 0.5rem;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    border-radius: 9px;
+    color: white;
+    border: none;
+
+    font-size: 1rem;
+    background-color:  #00768E;
+    font-weight: 17px;
+
+}
+
+#btnwel:hover {
+    color: #00768E;
+    padding: 0.5rem;
+    border: 2px solid #00768E;
+    background-color: white;
+}
+
+#continfo2 {
+    width: 400px;
+    height: 560px;
+    background-color: white;
+
+    border-radius: 16px;
+    padding: 45px;
+    padding-top: 85px;
+    margin-top: 150px;
+    margin-left: 200px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#code {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 300px;
+    margin-right: 200px;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+#key {
+    background-color: #48A5BE;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#linesmall {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+}
